@@ -1,0 +1,17 @@
+{
+  "name": "copa-mundial-api",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "db:populate": "node data/createdb.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "zod": "^4.4.3"
+  }
+}
